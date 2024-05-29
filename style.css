@@ -1,0 +1,48 @@
+.page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: o 4rem;
+}
+#page1 {
+  background: url(/Menen\ Tal-2.jpg) no-repeat center center/cover;
+}
+#page2 {
+  background: url(/sand-dunes-1024x683.jpg) no-repeat center center/cover;
+}
+#page3 {
+  background: url(/photo4.jpg) no-repeat center center/cover;
+}
+#page4 {
+  background: url(/Tsenkher1.jpg) no-repeat center center/cover;
+}
+#page5 {
+  background: url(/Yarguitiin\ Havtsal-3.jpg) no-repeat center center/cover;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page h1 {
+  font-size: 100px;
+}
+.page p {
+  font-size: 30px;
+  color: black;
+}
+.page a {
+  background-color: royalblue;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 50px;
+}
+.page a :hover {
+  background-color: aqua;
+}
